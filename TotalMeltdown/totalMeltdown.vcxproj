@@ -143,6 +143,9 @@
     <ClInclude Include="defines.h" />
     <ClInclude Include="wdm.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exploit.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
